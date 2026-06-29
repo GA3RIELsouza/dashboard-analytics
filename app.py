@@ -9,6 +9,7 @@ import header
 
 # 3. Estruturação do Dashboard Dash
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.FLATLY])
+server = app.server
 
 # Layout Principal
 app.layout = dbc.Container([
